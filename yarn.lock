@@ -2,6 +2,42 @@
 # yarn lockfile v1
 
 
+"@ag-grid-community/all-modules@^23.0.2":
+  version "23.2.0"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/all-modules/-/all-modules-23.2.0.tgz#c07dff0fdaea64310269da83bc7d7d5ce448ff65"
+  integrity sha512-ORzsq4dIC6fOf2ZHvSXs/pT7inJ7qBa8unKbGJPEJMv68SLBKdLb+R+LyKGeG9BhB4Zk+ULu5rQoV4t2o8AGBQ==
+  dependencies:
+    "@ag-grid-community/client-side-row-model" "~23.2.0"
+    "@ag-grid-community/core" "~23.2.0"
+    "@ag-grid-community/csv-export" "~23.2.0"
+    "@ag-grid-community/infinite-row-model" "~23.2.0"
+
+"@ag-grid-community/client-side-row-model@~23.2.0":
+  version "23.2.0"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/client-side-row-model/-/client-side-row-model-23.2.0.tgz#1afb02abd9a3ee29accd038127fd047b23a0bdf5"
+  integrity sha512-tDwcITJ/I0kG3oLRLhZ8s0zwdtxEoXMmNEIGnMDayhbVuYw69vowc3627v0nA1ConicdEYx2DVmc0y2hH0xpoQ==
+  dependencies:
+    "@ag-grid-community/core" "~23.2.0"
+
+"@ag-grid-community/core@~23.2.0":
+  version "23.2.0"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/core/-/core-23.2.0.tgz#87b20efc4478ad08d3f998a05be6fe9206a05cc1"
+  integrity sha512-k5Oqu6RvJEBgJV/MEWv8IS2/ME4DGOSgJdaUDVCFe0xfxnwM978ClZnyttX19ou4ONYzVdzLqDeN4PqTThuAoQ==
+
+"@ag-grid-community/csv-export@~23.2.0":
+  version "23.2.0"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/csv-export/-/csv-export-23.2.0.tgz#a34ea0da46361260c64128474abffe456204b04a"
+  integrity sha512-aFBPs1ZUT5Yu6xtaObcadXWMSt8HZwo7HLS54zeyBV1HBSbLb745j1GUsT+dBYJ+aeL1E5MJfj4N91ZkqtwU/w==
+  dependencies:
+    "@ag-grid-community/core" "~23.2.0"
+
+"@ag-grid-community/infinite-row-model@~23.2.0":
+  version "23.2.0"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/infinite-row-model/-/infinite-row-model-23.2.0.tgz#719307474c1c6daca7109fe53e2d75793fe64e20"
+  integrity sha512-2hbl5w39fY0iv/w1548WLYE6L5489llCl1ZNuN4fZvxhsXRtYU1bahVtk9Tyem+Kki4xsIue2okzqi/blNpLIQ==
+  dependencies:
+    "@ag-grid-community/core" "~23.2.0"
+
 "@babel/code-frame@7.8.3", "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -1745,6 +1781,28 @@ adjust-sourcemap-loader@2.0.0:
     loader-utils "1.2.3"
     object-path "0.11.4"
     regex-parser "2.2.10"
+
+ag-grid-community@^23.0.2:
+  version "23.2.0"
+  resolved "https://registry.yarnpkg.com/ag-grid-community/-/ag-grid-community-23.2.0.tgz#889f52e8eb91c167c2ac7477938cbf498a54f67c"
+  integrity sha512-aG7Ghfu79HeqOCd50GhFSeZUX1Tw9BVUX1VKMuglkAcwYPTQjuYvYT7QVQB5FGzfFjcVq4a1QFfcgdoAcZYJIA==
+
+ag-grid-enterprise@^23.0.2:
+  version "23.2.0"
+  resolved "https://registry.yarnpkg.com/ag-grid-enterprise/-/ag-grid-enterprise-23.2.0.tgz#4ada6746be4922a22f35fc6c4eeb799a9ee65b6f"
+  integrity sha512-gKuRdzGzcuyyiT4tF4ARZUw+qrsEclcfq1S52DjRGGKkpPnj+qPBpnIJWKZpH2eJxLv0G/4ZiCKGLWgXYvkOBQ==
+
+ag-grid-react@^23.0.3:
+  version "23.2.0"
+  resolved "https://registry.yarnpkg.com/ag-grid-react/-/ag-grid-react-23.2.0.tgz#00a54cb4e83c0d35a49c202e5833e3bb20d8cfa8"
+  integrity sha512-lDGV+WX0Nj5biNOJRSErFehXG+nqkbuXPMS7YJxEDWJLJxtOF0INP5sL6dtxV12j/XHqXa+M2CgQBXZWZq+EWg==
+  dependencies:
+    prop-types "^15.6.2"
+
+ag-grid@^18.1.2:
+  version "18.1.2"
+  resolved "https://registry.yarnpkg.com/ag-grid/-/ag-grid-18.1.2.tgz#d98b3dd824b9cb82d9f638e4bab5a5771513869b"
+  integrity sha512-HtJt8iFcRKCBj5UHBDmwSLLr72F3XDACeBNarH4nJWFHIqcnu7u0Ifrd2nftPmfEBj6YjFHawDqcZL2yo3YfmQ==
 
 aggregate-error@^3.0.0:
   version "3.0.1"
@@ -8436,6 +8494,11 @@ react-dev-utils@^10.2.1:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
+react-dom-factories@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-dom-factories/-/react-dom-factories-1.0.2.tgz#eb7705c4db36fb501b3aa38ff759616aa0ff96e0"
+  integrity sha1-63cFxNs2+1AbOqOP91lhaqD/luA=
+
 react-dom@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
@@ -10361,9 +10424,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   version "1.0.5"
