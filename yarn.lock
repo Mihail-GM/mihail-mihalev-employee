@@ -2,6 +2,42 @@
 # yarn lockfile v1
 
 
+"@ag-grid-community/all-modules@^23.0.2":
+  version "23.2.1"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/all-modules/-/all-modules-23.2.1.tgz#f9fdcc1330f904ac2e2df1d66a5c9d617f1b606f"
+  integrity sha512-U07Y9KeTxMd+kuR48FLuk024tYT/XszcuEgIno1+z/qJ5ajvnh960njGjuhqOD/pgqVcDlOgylOFUwQYEuRTWg==
+  dependencies:
+    "@ag-grid-community/client-side-row-model" "~23.2.0"
+    "@ag-grid-community/core" "~23.2.0"
+    "@ag-grid-community/csv-export" "~23.2.0"
+    "@ag-grid-community/infinite-row-model" "~23.2.0"
+
+"@ag-grid-community/client-side-row-model@~23.2.0":
+  version "23.2.1"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/client-side-row-model/-/client-side-row-model-23.2.1.tgz#b7f77b110f9a40b0e62c8ed486ecdd8fd98af70b"
+  integrity sha512-riL5IIyK+NL+PS5XUTEF3R0wZR8xnOrlp0M5rJJpAa2iiN2KITiu8rJENMNFm5F7o42B0vReLpf4SBkyCefR5w==
+  dependencies:
+    "@ag-grid-community/core" "~23.2.0"
+
+"@ag-grid-community/core@~23.2.0":
+  version "23.2.1"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/core/-/core-23.2.1.tgz#532104da04dcc636bf01364116bcb66804d6de04"
+  integrity sha512-ZW4r6mICsCDX3xME2CpXLf+/EsKYO/EO1hq0QInBXJVFp7FC9/VPSpplo2iy8pPFZjkLQ5gb1yg9WcMo50+9CA==
+
+"@ag-grid-community/csv-export@~23.2.0":
+  version "23.2.1"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/csv-export/-/csv-export-23.2.1.tgz#e74a54da4bb8f9656fb9c20408dc2230a276d454"
+  integrity sha512-pvHw7PBqu3ks2zs8agxYei9vmCa2XlPIZb58k+oSaZvPy7wqjfx58JS9GM0+uR04eyjuEiVYyFUP1KgzJyl43w==
+  dependencies:
+    "@ag-grid-community/core" "~23.2.0"
+
+"@ag-grid-community/infinite-row-model@~23.2.0":
+  version "23.2.1"
+  resolved "https://registry.yarnpkg.com/@ag-grid-community/infinite-row-model/-/infinite-row-model-23.2.1.tgz#a9087619306aa5767de69142c462974198027843"
+  integrity sha512-uIgVeZ5yhZ273EU/h6JsMBmPG4OhMQODxtpiy9d3ipJ8bMX2H6yVtGKIONWuUORCoX+tF1GPFZACAH/rCNxR/g==
+  dependencies:
+    "@ag-grid-community/core" "~23.2.0"
+
 "@babel/code-frame@7.8.3", "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -1745,6 +1781,28 @@ adjust-sourcemap-loader@2.0.0:
     loader-utils "1.2.3"
     object-path "0.11.4"
     regex-parser "2.2.10"
+
+ag-grid-community@^23.0.2:
+  version "23.2.1"
+  resolved "https://registry.yarnpkg.com/ag-grid-community/-/ag-grid-community-23.2.1.tgz#0cf2beb7ba2fcf66a4865e45faabdbea173d59b6"
+  integrity sha512-WHfDV7mFsd6eQJ5yOu26nnpnW7Gd02zcp9LHHfKQky8lfgTEo382qcja7MibHzB2f5vOCBdQnOPsWrbBNKRzhQ==
+
+ag-grid-enterprise@^23.0.2:
+  version "23.2.1"
+  resolved "https://registry.yarnpkg.com/ag-grid-enterprise/-/ag-grid-enterprise-23.2.1.tgz#ec678631ed2fe866e87a43218a98703834d65e5f"
+  integrity sha512-qKtzqh9Yu8POnjTVze7IZmbOzywBkD4cqCFuCN0amX38NnFxEVFwxNntfdrUKAzz1m2XV/FOG45B0dy1Pe82vA==
+
+ag-grid-react@^23.0.3:
+  version "23.2.1"
+  resolved "https://registry.yarnpkg.com/ag-grid-react/-/ag-grid-react-23.2.1.tgz#da5d72d50d7fe1c1936860ea4690bc407811d606"
+  integrity sha512-tLbgIyjea5Alt2WsPWVDlfCNkI4gIxg8kWcpl1yTsVboVSwAnagpzFpNpIKsjbf/y4WAuKIQFfA0YXPVw4YRSg==
+  dependencies:
+    prop-types "^15.6.2"
+
+ag-grid@^18.1.2:
+  version "18.1.2"
+  resolved "https://registry.yarnpkg.com/ag-grid/-/ag-grid-18.1.2.tgz#d98b3dd824b9cb82d9f638e4bab5a5771513869b"
+  integrity sha512-HtJt8iFcRKCBj5UHBDmwSLLr72F3XDACeBNarH4nJWFHIqcnu7u0Ifrd2nftPmfEBj6YjFHawDqcZL2yo3YfmQ==
 
 aggregate-error@^3.0.0:
   version "3.0.1"
@@ -7352,9 +7410,9 @@ path-key@^3.1.0:
   integrity sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@0.1.7:
   version "0.1.7"
@@ -8435,6 +8493,11 @@ react-dev-utils@^10.2.1:
     shell-quote "1.7.2"
     strip-ansi "6.0.0"
     text-table "0.2.0"
+
+react-dom-factories@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-dom-factories/-/react-dom-factories-1.0.2.tgz#eb7705c4db36fb501b3aa38ff759616aa0ff96e0"
+  integrity sha1-63cFxNs2+1AbOqOP91lhaqD/luA=
 
 react-dom@^16.13.1:
   version "16.13.1"
